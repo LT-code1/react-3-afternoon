@@ -59,7 +59,7 @@ class App extends Component {
                 posts.map( post => (        //cb function (post => (key))
                   <Post key={ post.id }
                         id={ post.id }
-                        text={ post.text}
+                        text={ post.text }
                         date={ post.date }
                         updatePostFn={ this.updatePost }
                         deletePostFn={ this.deletePost } />
